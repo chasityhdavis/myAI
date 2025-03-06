@@ -74,5 +74,9 @@ body {
   }
   body {
     @apply bg-background text-foreground;
+    background-image: url('/ai-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 }
