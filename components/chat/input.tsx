@@ -49,7 +49,7 @@ export default function ChatInput({
                         {...field}
                         onChange={handleInputChange}
                         value={input}
-                        className="border-none focus-visible:ring-0 focus-visible:ring-offset-0 bg-transparent"
+                        className="border-none focus-visible:ring-0 focus-visible:ring-offset-0 bg-pink-500"
                         onFocus={() => setIsFocused(true)}
                         onBlur={() => setIsFocused(false)}
                         placeholder="I'm interested in..."
@@ -60,7 +60,7 @@ export default function ChatInput({
               />
               <Button
                 type="submit"
-                className="rounded-full w-10 h-10 p-0 flex items-center justify-center"
+                className="rounded-full w-10 h-10 p-0 flex items-center justify-center bg-pink-500"
                 disabled={input.trim() === "" || isLoading}
               >
                 <ArrowUp className="w-5 h-5" />
